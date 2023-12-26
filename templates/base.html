@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tabler/core@1.0.0-beta17/dist/js/tabler.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/core@1.0.0-beta17/dist/css/tabler.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tabler-ui/dist/css/tabler.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+
+    <title>Covid19Tracker</title>
+    <style>
+        .navbar {/* Change this to your desired background color */
+            color: #fff; /* Text color */
+        }
+        .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-gray-700">
+        <div class="container">
+            <a class="navbar-brand text-primary" href="/">Covid19Tracker</a>
+            {% if user.is_authenticated %}
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item" aria-label="Fetch New Data" data-tooltip="Refresh">
+                        <a  class="nav-link text-azure" href="{% url 'app:fetch' %}" title="Fetch New Data"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-refresh" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4"></path>
+                            <path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4"></path>
+                         </svg></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-azure" href="{% url 'account_email' %}">Change Email</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-azure" href="{% url 'account_logout' %}">Sign Out</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-azure" href="{% url 'app:contact' %}">Contact Us</a>
+                    </li>
+                </ul>
+            {% else %}
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-azure" href="{% url 'account_login' %}">Sign In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-azure" href="{% url 'account_signup' %}">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-azure" href="{% url 'app:contact' %}">Contact Us</a>
+                    </li>
+                </ul>
+            {% endif %}
+        </div>
+    </nav>
+
+    <div class="container">
+        {% if messages %}
+        {% for message in messages%}
+        <div class="alert alert-{{message.tags}}">
+            {{message}}
+        </div>
+        {% endfor %}
+        {% endif %}
+        {% block content %}
+            <!-- Your content goes here -->
+        {% endblock %}
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/tabler@1.1/dist/js/tabler.min.js"></script>
+</body>
+</html>

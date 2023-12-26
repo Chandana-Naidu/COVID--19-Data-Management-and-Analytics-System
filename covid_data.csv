@@ -1,0 +1,780 @@
+State,District,Zone,Confirmed,Active,Recovered,Deceased
+Andaman and Nicobar Islands,Nicobars,Green,0,0,0,0
+Andaman and Nicobar Islands,North and Middle Andaman,Green,1,0,1,0
+Andaman and Nicobar Islands,South Andaman,Red,51,19,32,0
+Andaman and Nicobar Islands,Unknown,,7496,-13,7380,129
+Andhra Pradesh,Anantapur,Orange,156673,247,155337,1089
+Andhra Pradesh,Chittoor,Red,234198,2778,229637,1783
+Andhra Pradesh,East Godavari,Orange,281384,3065,277087,1232
+Andhra Pradesh,Foreign Evacuees,,434,0,434,0
+Andhra Pradesh,Guntur,Red,169978,1605,167210,1163
+Andhra Pradesh,Krishna,Red,111221,3111,106860,1250
+Andhra Pradesh,Kurnool,Red,123525,216,122465,844
+Andhra Pradesh,Other State,,2461,0,2461,0
+Andhra Pradesh,Prakasam,Orange,131478,1470,128985,1023
+Andhra Pradesh,S.P.S. Nellore,Red,136685,2591,133121,973
+Andhra Pradesh,Srikakulam,Orange,121217,557,119891,769
+Andhra Pradesh,Visakhapatnam,Orange,153395,544,151762,1089
+Andhra Pradesh,Vizianagaram,Orange,81707,225,80813,669
+Andhra Pradesh,West Godavari,Orange,171354,1422,168861,1071
+Andhra Pradesh,Y.S.R. Kadapa,Orange,111341,586,110128,627
+Arunachal Pradesh,Anjaw,Green,985,48,934,3
+Arunachal Pradesh,Changlang,Green,3621,71,3530,20
+Arunachal Pradesh,East Kameng,Green,1066,35,1031,0
+Arunachal Pradesh,East Siang,Green,2936,102,2817,17
+Arunachal Pradesh,Kamle,Green,460,60,400,0
+Arunachal Pradesh,Kra Daadi,Green,256,7,249,0
+Arunachal Pradesh,Kurung Kumey,Green,507,2,504,1
+Arunachal Pradesh,Lepa Rada,Green,762,41,719,2
+Arunachal Pradesh,Lohit,Green,2656,144,2486,26
+Arunachal Pradesh,Longding,Green,728,14,712,2
+Arunachal Pradesh,Lower Dibang Valley,Green,2147,89,2049,9
+Arunachal Pradesh,Lower Siang,Green,703,50,645,8
+Arunachal Pradesh,Lower Subansiri,Green,2610,333,2266,11
+Arunachal Pradesh,Namsai,Green,1958,48,1895,15
+Arunachal Pradesh,Pakke Kessang,Green,390,9,381,0
+Arunachal Pradesh,Papum Pare,Green,17113,844,16182,87
+Arunachal Pradesh,Shi Yomi,Green,221,25,196,0
+Arunachal Pradesh,Siang,Green,393,27,363,3
+Arunachal Pradesh,Tawang,Green,2283,115,2151,17
+Arunachal Pradesh,Tirap,Green,1005,20,982,3
+Arunachal Pradesh,Upper Dibang Valley,Green,290,26,262,2
+Arunachal Pradesh,Upper Siang,Green,881,76,804,1
+Arunachal Pradesh,Upper Subansiri,Green,1903,80,1817,6
+Arunachal Pradesh,West Kameng,Green,3194,171,3010,13
+Arunachal Pradesh,West Siang,Green,1725,51,1669,5
+Assam,Airport Quarantine,,13,0,13,0
+Assam,Baksa,Green,6013,5510,447,56
+Assam,Barpeta,Green,11543,10368,1024,151
+Assam,Biswanath,Green,8439,8010,379,50
+Assam,Bongaigaon,Red,6222,5321,834,67
+Assam,Cachar,Orange,23713,22029,1498,186
+Assam,Charaideo,Green,3464,3312,105,47
+Assam,Chirang,Green,2606,2353,219,34
+Assam,Darrang,Green,10144,8315,1730,99
+Assam,Dhemaji,Green,7248,6769,440,39
+Assam,Dhubri,Orange,7856,6590,1215,51
+Assam,Dibrugarh,Green,32973,30197,2409,367
+Assam,Dima Hasao,Green,3091,2880,199,12
+Assam,Goalpara,Orange,10532,9883,568,81
+Assam,Golaghat,Green,21779,19914,1656,209
+Assam,Hailakandi,Green,6079,4929,1116,34
+Assam,Hojai,Green,7058,5795,1160,103
+Assam,Jorhat,Green,23152,21134,1752,266
+Assam,Kamrup,Green,31268,28948,2074,246
+Assam,Kamrup Metropolitan,Orange,102179,86012,15370,797
+Assam,Karbi Anglong,Green,6787,6131,552,104
+Assam,Karimganj,Green,7690,6649,955,86
+Assam,Kokrajhar,Green,5311,4898,353,60
+Assam,Lakhimpur,Green,13925,12699,1135,91
+Assam,Majuli,Green,1774,1686,80,8
+Assam,Morigaon,Orange,12888,12264,557,67
+Assam,Nagaon,Green,23628,20934,2506,188
+Assam,Nalbari,Green,9612,8686,828,98
+Assam,Other State,,153,152,1,0
+Assam,Sivasagar,Green,9911,9278,473,160
+Assam,Sonitpur,Green,19836,17905,1727,204
+Assam,South Salmara Mankachar,Green,1839,1776,47,16
+Assam,Tinsukia,Green,19387,17346,1798,243
+Assam,Udalguri,Green,5418,4684,666,68
+Assam,Unknown,,112271,-403731,514859,1143
+Assam,West Karbi Anglong,Green,1233,1193,37,3
+Bihar,Araria,Green,14958,8,14834,116
+Bihar,Arwal,Orange,7377,8,7295,74
+Bihar,Aurangabad,Orange,20009,0,19934,75
+Bihar,Banka,Orange,7378,0,7266,112
+Bihar,Begusarai,Orange,27181,7,26717,457
+Bihar,Bhagalpur,Orange,25825,12,25504,309
+Bihar,Bhojpur,Orange,10172,9,10004,159
+Bihar,Buxar,Red,9248,0,9066,182
+Bihar,Darbhanga,Orange,10897,27,10504,366
+Bihar,East Champaran,Orange,19000,22,18548,430
+Bihar,Gaya,Red,33937,6,33652,279
+Bihar,Gopalganj,Orange,16671,1,16576,94
+Bihar,Jamui,Green,9410,4,9300,106
+Bihar,Jehanabad,Orange,10770,0,10661,109
+Bihar,Kaimur,Orange,4983,0,4836,147
+Bihar,Katihar,Orange,18119,14,18011,94
+Bihar,Khagaria,Orange,10054,0,9966,88
+Bihar,Kishanganj,Orange,10103,15,10022,66
+Bihar,Lakhisarai,Orange,7768,6,7660,102
+Bihar,Madhepura,Orange,12519,8,12400,111
+Bihar,Madhubani,Orange,18332,4,17991,337
+Bihar,Munger,Red,15101,3,14940,158
+Bihar,Muzaffarpur,Orange,31379,12,30746,621
+Bihar,Nalanda,Orange,23421,14,22939,468
+Bihar,Nawada,Orange,10344,2,10164,178
+Bihar,Patna,Red,146831,38,144463,2330
+Bihar,Purnia,Orange,24406,3,24223,180
+Bihar,Rohtas,Red,13958,7,13682,269
+Bihar,Saharsa,Orange,17591,3,17454,134
+Bihar,Samastipur,Orange,19977,19,19804,154
+Bihar,Saran,Orange,23267,1,23011,255
+Bihar,Sheikhpura,Orange,7690,2,7613,75
+Bihar,Sheohar,Orange,4395,1,4358,36
+Bihar,Sitamarhi,Green,9169,3,9039,127
+Bihar,Siwan,Orange,15193,0,15023,170
+Bihar,Supaul,Orange,17202,1,17073,128
+Bihar,Vaishali,Orange,19806,13,19601,192
+Bihar,West Champaran,Green,20885,4,20523,358
+Chandigarh,Chandigarh,Red,61997,35,61151,811
+Chhattisgarh,Balod,Green,27256,23,26837,396
+Chhattisgarh,Baloda Bazar,Green,43005,124,42411,470
+Chhattisgarh,Balrampur,Green,20276,30,20128,118
+Chhattisgarh,Bametara,Green,19943,6,19701,236
+Chhattisgarh,Bastar,Green,20927,154,20585,188
+Chhattisgarh,Bijapur,Green,8255,50,8151,54
+Chhattisgarh,Bilaspur,Green,65457,82,64170,1205
+Chhattisgarh,Dakshin Bastar Dantewada,Green,10746,30,10692,24
+Chhattisgarh,Dhamtari,Green,27188,33,26611,544
+Chhattisgarh,Durg,Green,96644,127,94723,1794
+Chhattisgarh,Gariaband,Green,19668,22,19452,194
+Chhattisgarh,Gaurela Pendra Marwahi,,12005,13,11846,146
+Chhattisgarh,Janjgir Champa,Green,57429,102,56497,830
+Chhattisgarh,Jashpur,Green,26924,92,26620,212
+Chhattisgarh,Kabeerdham,Green,22768,9,22492,267
+Chhattisgarh,Kondagaon,Green,13062,24,12939,99
+Chhattisgarh,Korba,Orange,54569,66,53928,575
+Chhattisgarh,Koriya,Green,26918,41,26702,175
+Chhattisgarh,Mahasamund,Green,31319,33,30922,364
+Chhattisgarh,Mungeli,Green,23891,14,23710,167
+Chhattisgarh,Narayanpur,Green,4003,30,3959,14
+Chhattisgarh,Other State,,766,19,616,131
+Chhattisgarh,Raigarh,Green,62463,60,61425,978
+Chhattisgarh,Raipur,Red,157796,121,154536,3139
+Chhattisgarh,Rajnandgaon,Green,56011,12,55485,514
+Chhattisgarh,Sukma,Green,7967,48,7899,20
+Chhattisgarh,Surajpur,Green,29015,40,28751,224
+Chhattisgarh,Surguja,Green,33638,34,33359,245
+Chhattisgarh,Uttar Bastar Kanker,Green,23530,118,23190,222
+Dadra and Nagar Haveli and Daman and Diu,Dadra and Nagar Haveli,Orange,5905,8,5894,3
+Dadra and Nagar Haveli and Daman and Diu,Daman,Green,3534,27,3506,1
+Dadra and Nagar Haveli and Daman and Diu,Diu,Green,1218,3,1215,0
+Dadra and Nagar Haveli and Daman and Diu,Other State,,0,0,0,0
+Delhi,Central Delhi,Red,184,184,0,0
+Delhi,East Delhi,Red,38,38,0,0
+Delhi,New Delhi,Red,37,37,0,0
+Delhi,North Delhi,Red,60,60,0,0
+Delhi,North East Delhi,Red,25,25,0,0
+Delhi,North West Delhi,Red,32,31,0,1
+Delhi,Shahdara,Red,48,48,0,0
+Delhi,South Delhi,Red,70,70,0,0
+Delhi,South East Delhi,Red,130,130,0,0
+Delhi,South West Delhi,Red,42,42,0,0
+Delhi,Unknown,,1436101,-293,1411327,25067
+Delhi,West Delhi,Red,122,122,0,0
+Goa,North Goa,Green,2668,1639,964,65
+Goa,Other State,,200,9,190,1
+Goa,South Goa,Green,3511,1978,1407,126
+Goa,Unknown,,165809,-2643,165480,2972
+Gujarat,Ahmedabad,Red,238022,61,234550,3411
+Gujarat,Amreli,Green,10806,4,10700,102
+Gujarat,Anand,Orange,9623,5,9569,49
+Gujarat,Aravalli,Orange,5183,0,5105,78
+Gujarat,Banaskantha,Orange,13631,0,13469,162
+Gujarat,Bharuch,Orange,11425,3,11304,118
+Gujarat,Bhavnagar,Orange,21413,4,21109,300
+Gujarat,Botad,Orange,2218,1,2175,42
+Gujarat,Chhota Udaipur,Orange,3395,0,3357,38
+Gujarat,Dahod,Green,9943,2,9903,38
+Gujarat,Dang,Green,864,0,846,18
+Gujarat,Devbhumi Dwarka,Green,4172,0,4090,82
+Gujarat,Gandhinagar,Orange,20740,7,20528,205
+Gujarat,Gir Somnath,Orange,8555,2,8486,67
+Gujarat,Jamnagar,Green,34949,7,34465,477
+Gujarat,Junagadh,Green,20469,4,20194,271
+Gujarat,Kheda,Orange,10422,5,10369,48
+Gujarat,Kutch,Orange,12587,1,12441,145
+Gujarat,Mahisagar,Orange,8192,1,8119,72
+Gujarat,Mehsana,Orange,24414,5,24232,177
+Gujarat,Morbi,Green,6502,0,6415,87
+Gujarat,Narmada,Green,5952,0,5937,15
+Gujarat,Navsari,Green,7155,3,7128,24
+Gujarat,Other State,,162,0,159,3
+Gujarat,Panchmahal,Orange,11770,0,11700,70
+Gujarat,Patan,Orange,11624,2,11493,129
+Gujarat,Porbandar,Green,3474,0,3455,19
+Gujarat,Rajkot,Orange,57920,14,57183,723
+Gujarat,Sabarkantha,Orange,9314,0,9157,157
+Gujarat,Surat,Red,143490,17,141519,1954
+Gujarat,Surendranagar,Green,8121,0,7985,136
+Gujarat,Tapi,Green,4438,2,4413,23
+Gujarat,Vadodara,Red,77912,43,77081,788
+Gujarat,Valsad,Green,6244,1,6194,49
+Haryana,Ambala,Orange,30104,12,29583,509
+Haryana,Bhiwani,Orange,22394,49,21740,605
+Haryana,Charkhi Dadri,Orange,5068,4,4932,132
+Haryana,Faridabad,Red,99801,24,99061,716
+Haryana,Fatehabad,Orange,17858,13,17382,463
+Haryana,Foreign Evacuees,,0,0,0,0
+Haryana,Gurugram,Orange,180972,74,179978,920
+Haryana,Hisar,Orange,53976,103,52834,1039
+Haryana,Italians,,0,0,0,0
+Haryana,Jhajjar,Orange,18827,22,18500,305
+Haryana,Jind,Orange,21202,16,20664,522
+Haryana,Kaithal,Orange,11218,20,10860,338
+Haryana,Karnal,Orange,39999,40,39413,546
+Haryana,Kurukshetra,Orange,22114,7,21751,356
+Haryana,Mahendragarh,Orange,21687,1,21533,153
+Haryana,Nuh,Orange,5010,1,4889,120
+Haryana,Palwal,Orange,10981,3,10825,153
+Haryana,Panchkula,Orange,30656,25,30257,374
+Haryana,Panipat,Orange,31135,91,30479,565
+Haryana,Rewari,Green,20304,20,20075,209
+Haryana,Rohtak,Orange,25876,88,25289,499
+Haryana,Sirsa,Orange,29256,51,28738,467
+Haryana,Sonipat,Red,47126,2,46870,254
+Haryana,Yamunanagar,Orange,24566,4,24154,408
+Himachal Pradesh,Bilaspur,Green,13084,153,12852,79
+Himachal Pradesh,Chamba,Orange,12805,654,12000,151
+Himachal Pradesh,Hamirpur,Orange,14821,263,14301,257
+Himachal Pradesh,Kangra,Orange,46790,389,45357,1044
+Himachal Pradesh,Kinnaur,Green,3337,27,3272,38
+Himachal Pradesh,Kullu,Green,9294,156,8984,154
+Himachal Pradesh,Lahaul and Spiti,Green,2811,53,2740,18
+Himachal Pradesh,Mandi,Green,28651,437,27809,405
+Himachal Pradesh,Shimla,Orange,26052,328,25116,608
+Himachal Pradesh,Sirmaur,Orange,15388,17,15161,210
+Himachal Pradesh,Solan,Orange,22459,39,22106,314
+Himachal Pradesh,Una,Orange,13498,58,13195,245
+Jammu and Kashmir,Anantnag,Red,16346,24,16117,205
+Jammu and Kashmir,Bandipora,Red,9531,57,9374,100
+Jammu and Kashmir,Baramulla,Red,23736,88,23366,282
+Jammu and Kashmir,Budgam,Red,22984,73,22705,206
+Jammu and Kashmir,Doda,Green,7374,111,7135,128
+Jammu and Kashmir,Ganderbal,Red,9989,69,9842,78
+Jammu and Kashmir,Jammu,Red,52877,136,51601,1140
+Jammu and Kashmir,Kathua,Red,9268,4,9113,151
+Jammu and Kashmir,Kishtwar,Green,4695,50,4601,44
+Jammu and Kashmir,Kulgam,Red,11312,32,11163,117
+Jammu and Kashmir,Kupwara,Red,14137,47,13925,165
+Jammu and Kashmir,Mirpur,,0,0,0,0
+Jammu and Kashmir,Muzaffarabad,,0,0,0,0
+Jammu and Kashmir,Pulwama,Red,15240,47,14999,194
+Jammu and Kashmir,Punch,Green,6285,31,6157,97
+Jammu and Kashmir,Rajouri,Orange,11006,71,10707,228
+Jammu and Kashmir,Ramban,Orange,5980,18,5895,67
+Jammu and Kashmir,Reasi,Orange,6336,68,6225,43
+Jammu and Kashmir,Samba,Red,7127,6,7002,119
+Jammu and Kashmir,Shopiyan,Red,5588,4,5526,58
+Jammu and Kashmir,Srinagar,Red,71719,309,70576,834
+Jammu and Kashmir,Udhampur,Orange,11355,52,11166,137
+Jharkhand,Bokaro,Orange,19413,4,19123,286
+Jharkhand,Chatra,Green,6025,1,5971,53
+Jharkhand,Deoghar,Orange,10801,11,10677,113
+Jharkhand,Dhanbad,Orange,16503,24,16100,379
+Jharkhand,Dumka,Green,4631,1,4583,47
+Jharkhand,East Singhbhum,Green,51780,11,50726,1043
+Jharkhand,Garhwa,Orange,6884,1,6789,94
+Jharkhand,Giridih,Orange,8959,2,8827,130
+Jharkhand,Godda,Green,5836,3,5746,87
+Jharkhand,Gumla,Green,9893,1,9854,38
+Jharkhand,Hazaribagh,Orange,19581,3,19392,186
+Jharkhand,Jamtara,Orange,5555,3,5492,60
+Jharkhand,Khunti,Green,7783,10,7677,96
+Jharkhand,Koderma,Orange,12871,18,12717,136
+Jharkhand,Latehar,Green,7863,4,7802,57
+Jharkhand,Lohardaga,Green,6689,6,6595,88
+Jharkhand,Pakur,Green,2550,7,2531,12
+Jharkhand,Palamu,Orange,12289,0,12179,110
+Jharkhand,Ramgarh,Green,13896,11,13689,196
+Jharkhand,Ranchi,Red,85440,62,83793,1585
+Jharkhand,Sahibganj,Green,4816,3,4771,42
+Jharkhand,Saraikela-Kharsawan,Green,7204,4,7133,67
+Jharkhand,Simdega,Orange,7191,5,7094,92
+Jharkhand,West Singhbhum,Green,13001,1,12867,133
+Karnataka,Bagalkote,Orange,35121,39,34755,327
+Karnataka,Ballari,Orange,97504,217,95602,1685
+Karnataka,Belagavi,Orange,78627,390,77361,876
+Karnataka,Bengaluru Rural,Red,61199,336,60002,861
+Karnataka,Bengaluru Urban,Red,1231474,8291,1207260,15923
+Karnataka,Bidar,Orange,24284,15,23873,396
+Karnataka,Chamarajanagara,Green,32577,303,31789,485
+Karnataka,Chikkaballapura,Orange,43776,93,43260,423
+Karnataka,Chikkamagaluru,Green,49033,1059,47597,377
+Karnataka,Chitradurga,Orange,36095,469,35434,192
+Karnataka,Dakshina Kannada,Orange,104257,3484,99296,1477
+Karnataka,Davanagere,Orange,50500,192,49718,590
+Karnataka,Dharwad,Orange,60600,135,59176,1289
+Karnataka,Gadag,Orange,26004,22,25666,316
+Karnataka,Hassan,Orange,107826,1499,105134,1193
+Karnataka,Haveri,Orange,21884,27,21226,631
+Karnataka,Kalaburagi,Orange,61687,92,60777,818
+Karnataka,Kodagu,Green,33974,727,32946,301
+Karnataka,Kolar,Orange,45901,262,45039,600
+Karnataka,Koppal,Green,35117,66,34533,518
+Karnataka,Mandya,Orange,72492,405,71457,630
+Karnataka,Mysuru,Red,174199,1174,170694,2331
+Karnataka,Other State,,36,0,33,3
+Karnataka,Raichur,Green,39900,30,39541,329
+Karnataka,Ramanagara,Green,24050,93,23646,311
+Karnataka,Shivamogga,Orange,67431,558,65810,1063
+Karnataka,Tumakuru,Orange,118431,882,116469,1080
+Karnataka,Udupi,Orange,71170,1427,69309,434
+Karnataka,Uttara Kannada,Orange,54051,541,52783,727
+Karnataka,Vijayapura,Orange,36174,35,35650,489
+Karnataka,Yadgir,Green,27501,14,27281,206
+Kerala,Alappuzha,Green,237133,8305,227678,1150
+Kerala,Ernakulam,Green,430396,26990,401576,1830
+Kerala,Idukki,Orange,96572,6226,90108,238
+Kerala,Kannur,Red,199236,8898,189191,1147
+Kerala,Kasaragod,Orange,114698,8750,105566,382
+Kerala,Kollam,Orange,284264,2471,280404,1389
+Kerala,Kottayam,Red,231995,8003,223230,762
+Kerala,Kozhikode,Orange,387573,23314,362390,1869
+Kerala,Malappuram,Orange,440734,28789,410437,1508
+Kerala,Other State,,0,0,0,0
+Kerala,Palakkad,Orange,269048,17705,249691,1652
+Kerala,Pathanamthitta,Orange,136773,8309,127910,554
+Kerala,Thiruvananthapuram,Orange,343093,9501,330216,3376
+Kerala,Thrissur,Green,355009,11265,341779,1965
+Kerala,Wayanad,Orange,83669,7952,75419,298
+Ladakh,Kargil,Orange,3572,18,3496,58
+Ladakh,Leh,Orange,16835,52,16634,149
+Lakshadweep,Lakshadweep,Green,10268,83,10135,50
+Lakshadweep,Unknown,,0,-1,0,1
+Madhya Pradesh,Agar Malwa,Orange,3303,0,3235,68
+Madhya Pradesh,Alirajpur,Orange,3501,0,3453,48
+Madhya Pradesh,Anuppur,Green,9229,0,9140,89
+Madhya Pradesh,Ashoknagar,Green,3670,0,3613,57
+Madhya Pradesh,Balaghat,Green,9090,9,9017,64
+Madhya Pradesh,Barwani,Red,8363,6,8267,90
+Madhya Pradesh,Betul,Orange,12899,32,12590,277
+Madhya Pradesh,Bhind,Green,2994,2,2960,32
+Madhya Pradesh,Bhopal,Red,123323,230,122121,972
+Madhya Pradesh,Burhanpur,Orange,2568,0,2529,39
+Madhya Pradesh,Chhatarpur,Green,7607,10,7506,91
+Madhya Pradesh,Chhindwara,Orange,6732,0,6612,120
+Madhya Pradesh,Damoh,Green,8120,93,7841,186
+Madhya Pradesh,Datia,Green,6958,6,6874,78
+Madhya Pradesh,Dewas,Red,7723,0,7672,51
+Madhya Pradesh,Dhar,Red,12533,15,12388,130
+Madhya Pradesh,Dindori,Orange,4623,6,4588,29
+Madhya Pradesh,Guna,Orange,5132,3,5085,44
+Madhya Pradesh,Gwalior,Red,53092,32,52427,633
+Madhya Pradesh,Harda,Orange,5055,5,4954,96
+Madhya Pradesh,Hoshangabad,Orange,10680,11,10570,99
+Madhya Pradesh,Indore,Red,153011,210,151410,1391
+Madhya Pradesh,Jabalpur,Red,50641,75,49896,670
+Madhya Pradesh,Jhabua,Green,7688,5,7619,64
+Madhya Pradesh,Katni,Green,9365,3,9242,120
+Madhya Pradesh,Khandwa,Red,4040,0,3946,94
+Madhya Pradesh,Khargone,Orange,13965,10,13716,239
+Madhya Pradesh,Mandla,Green,5187,3,5159,25
+Madhya Pradesh,Mandsaur,Orange,8637,1,8552,84
+Madhya Pradesh,Morena,Orange,8236,6,8135,95
+Madhya Pradesh,Narsinghpur,Green,11200,4,11115,81
+Madhya Pradesh,Neemuch,Orange,7924,12,7828,84
+Madhya Pradesh,Niwari,Green,3711,9,3654,48
+Madhya Pradesh,Other Region,,0,0,0,0
+Madhya Pradesh,Panna,Green,7319,6,7250,63
+Madhya Pradesh,Raisen,Orange,9233,9,9030,194
+Madhya Pradesh,Rajgarh,Green,8700,38,8490,172
+Madhya Pradesh,Ratlam,Orange,17854,31,17438,385
+Madhya Pradesh,Rewa,Green,16431,6,16270,155
+Madhya Pradesh,Sagar,Orange,16592,48,16154,390
+Madhya Pradesh,Satna,Green,11965,3,11829,133
+Madhya Pradesh,Sehore,Orange,10136,6,10057,73
+Madhya Pradesh,Seoni,Green,6774,7,6739,28
+Madhya Pradesh,Shahdol,Orange,10080,4,9958,118
+Madhya Pradesh,Shajapur,Orange,6349,2,6273,74
+Madhya Pradesh,Sheopur,Orange,3998,1,3919,78
+Madhya Pradesh,Shivpuri,Green,12393,7,12261,125
+Madhya Pradesh,Sidhi,Green,9219,0,9132,87
+Madhya Pradesh,Singrauli,Green,8793,5,8706,82
+Madhya Pradesh,Tikamgarh,Orange,6863,7,6742,114
+Madhya Pradesh,Ujjain,Red,18896,4,18720,172
+Madhya Pradesh,Umaria,Green,6293,6,6224,63
+Madhya Pradesh,Unknown,,1384,-860,761,1483
+Madhya Pradesh,Vidisha,Orange,11918,4,11677,237
+Maharashtra,Ahmednagar,Orange,294758,5232,283222,6304
+Maharashtra,Akola,Red,58638,42,57176,1420
+Maharashtra,Amravati,Orange,96012,78,94297,1637
+Maharashtra,Aurangabad,Red,154499,701,149600,4198
+Maharashtra,Beed,Orange,99459,1685,95137,2637
+Maharashtra,Bhandara,Orange,60038,10,58915,1113
+Maharashtra,Buldhana,Orange,84828,83,83980,765
+Maharashtra,Chandrapur,Orange,88688,79,87003,1606
+Maharashtra,Dhule,Red,46270,12,45606,652
+Maharashtra,Gadchiroli,Green,30288,50,29566,672
+Maharashtra,Gondia,Green,40534,9,39957,568
+Maharashtra,Hingoli,Orange,18419,79,17842,498
+Maharashtra,Jalgaon,Red,139800,352,136786,2662
+Maharashtra,Jalna,Orange,60314,176,58939,1199
+Maharashtra,Kolhapur,Orange,199490,4432,189411,5647
+Maharashtra,Latur,Orange,91166,505,88255,2406
+Maharashtra,Mumbai,Red,738239,6621,715650,15968
+Maharashtra,Mumbai Suburban,Red,0,0,0,0
+Maharashtra,Nagpur,Red,493063,335,483591,9137
+Maharashtra,Nanded,Orange,90649,63,87925,2661
+Maharashtra,Nandurbar,Orange,39968,7,39013,948
+Maharashtra,Nashik,Red,403658,840,394257,8561
+Maharashtra,Osmanabad,Green,64970,1116,62021,1833
+Maharashtra,Other State,,146,30,0,116
+Maharashtra,Palghar,Red,133835,700,129915,3220
+Maharashtra,Parbhani,Orange,52279,266,50793,1220
+Maharashtra,Pune,Red,1099851,14725,1066447,18679
+Maharashtra,Raigad,Orange,185702,1887,179549,4266
+Maharashtra,Ratnagiri,Orange,73420,1755,69522,2143
+Maharashtra,Sangli,Orange,192215,6973,180025,5217
+Maharashtra,Satara,Red,226151,6266,214414,5471
+Maharashtra,Sindhudurg,Orange,49379,1455,46665,1259
+Maharashtra,Solapur,Red,194066,5303,183777,4986
+Maharashtra,Thane,Red,592025,5935,574998,11092
+Maharashtra,Wardha,Green,58342,176,56962,1204
+Maharashtra,Washim,Green,41623,23,40983,617
+Maharashtra,Yavatmal,Red,76220,17,74421,1782
+Manipur,Bishnupur,Green,7897,7685,58,154
+Manipur,CAPF Personnel,,3251,1568,1681,2
+Manipur,Chandel,Green,1718,1684,4,30
+Manipur,Churachandpur,Green,8377,8181,58,138
+Manipur,Imphal East,Green,22898,22367,150,381
+Manipur,Imphal West,Green,34490,33914,52,524
+Manipur,Jiribam,Green,873,865,2,6
+Manipur,Kakching,Green,5740,5612,27,101
+Manipur,Kamjong,Green,540,520,17,3
+Manipur,Kangpokpi,Green,1897,1828,19,50
+Manipur,Noney,Green,838,816,18,4
+Manipur,Pherzawl,Green,270,255,15,0
+Manipur,Senapati,Green,1662,1635,21,6
+Manipur,Tamenglong,Green,2783,2740,32,11
+Manipur,Tengnoupal,Green,844,821,13,10
+Manipur,Thoubal,Green,8532,8369,23,140
+Manipur,Ukhrul,Green,1572,1533,18,21
+Manipur,Unknown,,1848,-93536,95291,93
+Meghalaya,East Garo Hills,Green,1761,56,1696,9
+Meghalaya,East Jaintia Hills,Green,2228,63,2137,28
+Meghalaya,East Khasi Hills,Orange,34271,1981,31453,837
+Meghalaya,North Garo Hills,Green,1622,54,1560,8
+Meghalaya,Ribhoi,Green,8344,437,7841,66
+Meghalaya,South Garo Hills,Green,1154,45,1098,11
+Meghalaya,South West Garo Hills,Green,1792,48,1729,15
+Meghalaya,South West Khasi Hills,Green,1951,219,1720,12
+Meghalaya,West Garo Hills,Green,8461,524,7872,65
+Meghalaya,West Jaintia Hills,Green,5599,443,5051,105
+Meghalaya,West Khasi Hills,Green,3049,626,2384,39
+Mizoram,Aizawl,Green,31751,8728,22888,135
+Mizoram,Champhai,Green,700,209,490,1
+Mizoram,Hnahthial,Green,116,13,103,0
+Mizoram,Khawzawl,Green,109,1,108,0
+Mizoram,Kolasib,Green,3809,940,2852,17
+Mizoram,Lawngtlai,Green,2821,363,2450,8
+Mizoram,Lunglei,Green,3534,515,3016,3
+Mizoram,Mamit,Green,1462,429,1031,2
+Mizoram,Saiha,Green,942,183,758,1
+Mizoram,Saitual,Green,222,15,205,2
+Mizoram,Serchhip,Green,854,18,833,3
+Nagaland,Dimapur,Green,13335,1000,11973,362
+Nagaland,Kiphire,Green,228,15,205,8
+Nagaland,Kohima,Green,8765,496,8167,102
+Nagaland,Longleng,Green,262,51,209,2
+Nagaland,Mokokchung,Green,1950,275,1627,48
+Nagaland,Mon,Green,1098,39,1046,13
+Nagaland,Others,,0,0,0,0
+Nagaland,Peren,Green,873,97,773,3
+Nagaland,Phek,Green,476,15,444,17
+Nagaland,Tuensang,Green,985,70,904,11
+Nagaland,Wokha,Green,326,50,265,11
+Nagaland,Zunheboto,Green,577,75,488,14
+Odisha,Angul,Red,43056,212,42565,279
+Odisha,Balangir,Orange,23218,36,23070,112
+Odisha,Balasore,Red,38584,526,37831,227
+Odisha,Bargarh,Green,30775,62,30407,306
+Odisha,Bhadrak,Red,25719,310,25311,98
+Odisha,Boudh,Green,12528,20,12402,106
+Odisha,Cuttack,Green,88249,1209,86580,460
+Odisha,Deogarh,Orange,6213,30,6141,42
+Odisha,Dhenkanal,Orange,19231,158,18939,134
+Odisha,Gajapati,Green,9531,16,9432,83
+Odisha,Ganjam,Red,33502,38,32994,470
+Odisha,Jagatsinghpur,Orange,26084,496,25478,110
+Odisha,Jajpur,Red,41724,533,41106,85
+Odisha,Jharsuguda,Orange,23624,27,23429,168
+Odisha,Kalahandi,Orange,24172,33,23936,203
+Odisha,Kandhamal,Green,11397,73,11243,81
+Odisha,Kendrapara,Orange,23736,256,23325,155
+Odisha,Kendujhar,Orange,20534,114,20273,147
+Odisha,Khordha,Orange,153972,3456,149151,1365
+Odisha,Koraput,Orange,18883,48,18762,73
+Odisha,Malkangiri,Green,11522,41,11433,48
+Odisha,Mayurbhanj,Orange,39008,294,38480,234
+Odisha,Nabarangapur,Green,23472,21,23385,66
+Odisha,Nayagarh,Orange,22829,249,22414,166
+Odisha,Nuapada,Green,22812,23,22706,83
+Odisha,Others,,0,0,0,0
+Odisha,Puri,Green,44013,425,43180,408
+Odisha,Rayagada,Green,19887,101,19625,161
+Odisha,Sambalpur,Green,30621,99,30327,195
+Odisha,State Pool,,27180,762,26418,0
+Odisha,Subarnapur,Green,13098,50,13000,48
+Odisha,Sundargarh,Orange,60901,95,60236,570
+Puducherry,Karaikal,Green,15157,119,14807,231
+Puducherry,Mahe,Green,4977,143,4796,38
+Puducherry,Puducherry,Orange,95120,581,93112,1427
+Puducherry,Yanam,Green,6626,23,6498,105
+Punjab,Amritsar,Orange,47118,32,45499,1587
+Punjab,Barnala,Orange,5912,14,5656,242
+Punjab,Bathinda,Orange,41547,34,40474,1039
+Punjab,Faridkot,Orange,13836,8,13515,313
+Punjab,Fatehgarh Sahib,Orange,8797,7,8499,291
+Punjab,Fazilka,Green,20184,44,19614,526
+Punjab,Ferozepur,Orange,14245,13,13733,499
+Punjab,Gurdaspur,Orange,22246,9,21440,797
+Punjab,Hoshiarpur,Orange,30674,23,29673,978
+Punjab,Jalandhar,Red,63162,61,61611,1490
+Punjab,Kapurthala,Orange,17771,13,17205,553
+Punjab,Ludhiana,Red,87401,99,85207,2095
+Punjab,Mansa,Orange,15575,1,15263,311
+Punjab,Moga,Orange,8628,16,8379,233
+Punjab,Pathankot,Orange,18607,22,18169,416
+Punjab,Patiala,Red,48752,34,47377,1341
+Punjab,Rupnagar,Green,12880,9,12454,417
+Punjab,S.A.S. Nagar,Orange,68505,46,67402,1057
+Punjab,Sangrur,Orange,15693,9,14816,868
+Punjab,Shahid Bhagat Singh Nagar,Orange,11429,3,11052,374
+Punjab,Sri Muktsar Sahib,Orange,18730,8,18199,523
+Punjab,Tarn Taran,Orange,7986,12,7599,375
+Rajasthan,Ajmer,Red,37715,14,37291,410
+Rajasthan,Alwar,Orange,59652,10,59335,307
+Rajasthan,BSF Camp,,85,0,85,0
+Rajasthan,Banswara,Red,10005,3,9898,104
+Rajasthan,Baran,Green,11993,1,11931,61
+Rajasthan,Barmer,Orange,15550,4,15361,185
+Rajasthan,Bharatpur,Red,19590,1,19329,260
+Rajasthan,Bhilwara,Orange,29773,0,29617,156
+Rajasthan,Bikaner,Orange,40311,7,39759,545
+Rajasthan,Bundi,Green,7967,0,7919,48
+Rajasthan,Chittorgarh,Orange,19809,0,19670,139
+Rajasthan,Churu,Orange,16719,0,16612,107
+Rajasthan,Dausa,Orange,13351,2,13287,62
+Rajasthan,Dholpur,Orange,11006,1,10957,48
+Rajasthan,Dungarpur,Orange,18407,0,18276,131
+Rajasthan,Evacuees,,61,0,61,0
+Rajasthan,Ganganagar,Green,19336,0,19186,150
+Rajasthan,Hanumangarh,Orange,16050,4,15935,111
+Rajasthan,Italians,,2,0,2,0
+Rajasthan,Jaipur,Red,187598,60,185568,1970
+Rajasthan,Jaisalmer,Orange,13639,3,13570,66
+Rajasthan,Jalore,Orange,10065,4,9989,72
+Rajasthan,Jhalawar,Red,13599,1,13411,187
+Rajasthan,Jhunjhunu,Orange,14802,0,14644,158
+Rajasthan,Jodhpur,Red,112374,0,111271,1103
+Rajasthan,Karauli,Orange,7156,0,7086,70
+Rajasthan,Kota,Red,57051,1,56601,449
+Rajasthan,Nagaur,Red,17727,7,17543,177
+Rajasthan,Other State,,189,0,150,39
+Rajasthan,Pali,Orange,27315,11,27017,287
+Rajasthan,Pratapgarh,Green,7143,5,7075,63
+Rajasthan,Rajsamand,Orange,17041,2,16870,169
+Rajasthan,Sawai Madhopur,Orange,10602,4,10537,61
+Rajasthan,Sikar,Orange,30605,6,30264,335
+Rajasthan,Sirohi,Orange,13729,0,13650,79
+Rajasthan,Tonk,Orange,9495,1,9402,92
+Rajasthan,Udaipur,Orange,56358,43,55562,753
+Sikkim,East District,Green,0,0,0,0
+Sikkim,East Sikkim,,15974,10909,4917,148
+Sikkim,North District,Green,0,0,0,0
+Sikkim,North Sikkim,,781,708,72,1
+Sikkim,South District,Green,0,0,0,0
+Sikkim,South Sikkim,,6178,5738,438,2
+Sikkim,Unknown,,269,-19351,19431,189
+Sikkim,West District,Green,0,0,0,0
+Sikkim,West Sikkim,,4973,4817,137,19
+State Unassigned,Unassigned,,0,0,0,0
+Tamil Nadu,Airport Quarantine,,2098,8,2088,2
+Tamil Nadu,Ariyalur,Orange,16037,237,15560,240
+Tamil Nadu,Chengalpattu,Red,163274,1152,159709,2413
+Tamil Nadu,Chennai,Red,540300,2048,529907,8345
+Tamil Nadu,Coimbatore,Orange,231863,2259,227403,2201
+Tamil Nadu,Cuddalore,Orange,61220,777,59622,821
+Tamil Nadu,Dharmapuri,Orange,26415,316,25862,237
+Tamil Nadu,Dindigul,Orange,32322,157,31538,627
+Tamil Nadu,Erode,Green,95559,1710,93208,641
+Tamil Nadu,Kallakurichi,Orange,29521,468,28854,199
+Tamil Nadu,Kancheepuram,Red,72144,448,70483,1213
+Tamil Nadu,Kanyakumari,Orange,60451,339,59090,1022
+Tamil Nadu,Karur,Orange,22836,188,22297,351
+Tamil Nadu,Krishnagiri,Orange,41638,309,41004,325
+Tamil Nadu,Madurai,Red,73729,228,72354,1147
+Tamil Nadu,Mayiladuthurai,,21325,259,20795,271
+Tamil Nadu,Nagapattinam,Orange,19075,427,18353,295
+Tamil Nadu,Namakkal,Red,47771,574,46739,458
+Tamil Nadu,Nilgiris,Orange,31048,493,30369,186
+Tamil Nadu,Other State,,0,0,0,0
+Tamil Nadu,Perambalur,Orange,11579,109,11245,225
+Tamil Nadu,Pudukkottai,Orange,28533,356,27805,372
+Tamil Nadu,Railway Quarantine,,428,0,428,0
+Tamil Nadu,Ramanathapuram,Orange,20110,94,19665,351
+Tamil Nadu,Ranipet,Red,42169,216,41208,745
+Tamil Nadu,Salem,Orange,94328,843,91888,1597
+Tamil Nadu,Sivaganga,Orange,19022,229,18594,199
+Tamil Nadu,Tenkasi,Orange,26928,112,26332,484
+Tamil Nadu,Thanjavur,Red,68972,995,67113,864
+Tamil Nadu,Theni,Orange,43038,120,42404,514
+Tamil Nadu,Thiruvallur,Red,114461,941,111754,1766
+Tamil Nadu,Thiruvarur,Red,38327,432,37519,376
+Tamil Nadu,Thoothukkudi,Orange,55274,196,54680,398
+Tamil Nadu,Tiruchirappalli,Orange,73209,749,71481,979
+Tamil Nadu,Tirunelveli,Orange,48151,252,47469,430
+Tamil Nadu,Tirupathur,Orange,28410,178,27628,604
+Tamil Nadu,Tiruppur,Red,88754,857,87021,876
+Tamil Nadu,Tiruvannamalai,Orange,52586,503,51442,641
+Tamil Nadu,Vellore,Red,48356,308,46951,1097
+Tamil Nadu,Viluppuram,Orange,44205,358,43506,341
+Tamil Nadu,Virudhunagar,Red,45628,137,44949,542
+Telangana,Adilabad,Orange,7100,7085,15,0
+Telangana,Bhadradri Kothagudem,Green,18332,18328,4,0
+Telangana,Foreign Evacuees,,33,33,0,0
+Telangana,Hyderabad,Red,136891,136563,305,23
+Telangana,Jagtial,Orange,16971,16969,2,0
+Telangana,Jangaon,Orange,7524,7523,1,0
+Telangana,Jayashankar Bhupalapally,Orange,6760,6760,0,0
+Telangana,Jogulamba Gadwal,Orange,7182,7156,25,1
+Telangana,Kamareddy,Orange,11518,11510,8,0
+Telangana,Karimnagar,Orange,29303,29287,16,0
+Telangana,Khammam,Orange,26952,26949,3,0
+Telangana,Komaram Bheem,Orange,4463,4461,2,0
+Telangana,Mahabubabad,Green,12856,12855,1,0
+Telangana,Mahabubnagar,Orange,16226,16218,8,0
+Telangana,Mancherial,Orange,15914,15913,0,1
+Telangana,Medak,Orange,8392,8388,4,0
+Telangana,Medchal Malkajgiri,Red,44954,44944,9,1
+Telangana,Mulugu,Green,6574,6572,2,0
+Telangana,Nagarkurnool,Green,12230,12228,2,0
+Telangana,Nalgonda,Orange,28636,28624,12,0
+Telangana,Narayanpet,Orange,3272,3271,0,1
+Telangana,Nirmal,Orange,7230,7217,13,0
+Telangana,Nizamabad,Orange,20776,20746,30,0
+Telangana,Other State,,250,250,0,0
+Telangana,Peddapalli,Green,15417,15416,1,0
+Telangana,Rajanna Sircilla,Orange,11926,11924,2,0
+Telangana,Ranga Reddy,Red,48344,48325,17,2
+Telangana,Sangareddy,Orange,19035,19029,6,0
+Telangana,Siddipet,Green,19168,19167,1,0
+Telangana,Suryapet,Red,17267,17243,24,0
+Telangana,Unknown,,1055,-641062,638314,3803
+Telangana,Vikarabad,Red,10933,10917,15,1
+Telangana,Wanaparthy,Green,9674,9674,0,0
+Telangana,Warangal Rural,Green,10500,10500,0,0
+Telangana,Warangal Urban,Red,26044,26021,23,0
+Telangana,Yadadri Bhuvanagiri,Green,11133,11133,0,0
+Tripura,Dhalai,Red,6866,108,6724,34
+Tripura,Gomati,Orange,7796,256,7469,71
+Tripura,Khowai,Green,4466,76,4338,52
+Tripura,North Tripura,Orange,6912,189,6691,32
+Tripura,Sipahijala,Green,6118,84,5960,74
+Tripura,South Tripura,Green,9759,280,9434,45
+Tripura,Unokoti,Green,8209,303,7848,58
+Tripura,West Tripura,Green,30531,843,29284,404
+Uttar Pradesh,Agra,Red,25734,8,25269,457
+Uttar Pradesh,Aligarh,Red,21276,0,21168,108
+Uttar Pradesh,Ambedkar Nagar,Green,5028,5,4873,150
+Uttar Pradesh,Amethi,Orange,9958,0,9815,143
+Uttar Pradesh,Amroha,Red,16610,2,16405,203
+Uttar Pradesh,Auraiya,Orange,10079,1,9875,203
+Uttar Pradesh,Ayodhya,Orange,16912,2,16620,290
+Uttar Pradesh,Azamgarh,Orange,17886,4,17654,228
+Uttar Pradesh,Baghpat,Orange,9128,2,8985,141
+Uttar Pradesh,Bahraich,Orange,11546,2,11366,178
+Uttar Pradesh,Ballia,Green,21606,1,21372,233
+Uttar Pradesh,Balrampur,Orange,7487,3,7346,138
+Uttar Pradesh,Banda,Orange,10985,1,10831,153
+Uttar Pradesh,Barabanki,Green,19832,8,19599,225
+Uttar Pradesh,Bareilly,Red,43970,3,43591,376
+Uttar Pradesh,Basti,Orange,11714,1,11383,330
+Uttar Pradesh,Bhadohi,Orange,7717,2,7552,163
+Uttar Pradesh,Bijnor,Red,14788,1,14679,108
+Uttar Pradesh,Budaun,Orange,14924,1,14825,98
+Uttar Pradesh,Bulandshahr,Red,20201,2,19958,241
+Uttar Pradesh,Chandauli,Green,16198,3,15839,356
+Uttar Pradesh,Chitrakoot,Green,7106,0,7027,79
+Uttar Pradesh,Deoria,Orange,20212,6,19988,218
+Uttar Pradesh,Etah,Orange,9963,0,9865,98
+Uttar Pradesh,Etawah,Orange,13928,3,13632,293
+Uttar Pradesh,Farrukhabad,Green,10340,2,10144,194
+Uttar Pradesh,Fatehpur,Orange,6800,3,6658,139
+Uttar Pradesh,Firozabad,Red,8715,0,8580,135
+Uttar Pradesh,Gautam Buddha Nagar,Red,63228,16,62746,466
+Uttar Pradesh,Ghaziabad,Orange,55622,11,55150,461
+Uttar Pradesh,Ghazipur,Orange,21636,10,21345,281
+Uttar Pradesh,Gonda,Orange,12281,0,12020,261
+Uttar Pradesh,Gorakhpur,Orange,59377,14,58515,848
+Uttar Pradesh,Hamirpur,Green,5229,1,5127,101
+Uttar Pradesh,Hapur,Orange,12628,4,12407,217
+Uttar Pradesh,Hardoi,Orange,13754,3,13402,349
+Uttar Pradesh,Hathras,Orange,2917,0,2874,43
+Uttar Pradesh,Jalaun,Orange,11661,5,11454,202
+Uttar Pradesh,Jaunpur,Orange,22568,9,22325,234
+Uttar Pradesh,Jhansi,Orange,36539,7,35869,663
+Uttar Pradesh,Kannauj,Orange,9220,5,9101,114
+Uttar Pradesh,Kanpur Dehat,Green,6189,5,6074,110
+Uttar Pradesh,Kanpur Nagar,Red,82893,15,80974,1904
+Uttar Pradesh,Kasganj,Orange,4247,0,4194,53
+Uttar Pradesh,Kaushambi,Orange,4416,2,4346,68
+Uttar Pradesh,Kushinagar,Green,15610,37,15345,228
+Uttar Pradesh,Lakhimpur Kheri,Green,24405,10,24103,292
+Uttar Pradesh,Lalitpur,Green,12734,1,12605,128
+Uttar Pradesh,Lucknow,Red,238644,54,235939,2651
+Uttar Pradesh,Maharajganj,Green,12394,14,12242,138
+Uttar Pradesh,Mahoba,Green,4268,1,4181,86
+Uttar Pradesh,Mainpuri,Orange,10017,36,9799,182
+Uttar Pradesh,Mathura,Red,20273,40,19865,368
+Uttar Pradesh,Mau,Orange,8323,1,8242,80
+Uttar Pradesh,Meerut,Red,69420,7,68516,897
+Uttar Pradesh,Mirzapur,Orange,11082,2,10964,116
+Uttar Pradesh,Moradabad,Red,39094,5,38740,349
+Uttar Pradesh,Muzaffarnagar,Red,30999,6,30724,269
+Uttar Pradesh,Pilibhit,Orange,11027,0,10834,193
+Uttar Pradesh,Pratapgarh,Orange,16023,0,15862,161
+Uttar Pradesh,Prayagraj,Orange,78607,34,77499,1074
+Uttar Pradesh,Rae Bareli,Red,17074,31,16723,320
+Uttar Pradesh,Rampur,Red,11817,6,11665,146
+Uttar Pradesh,Saharanpur,Red,32749,2,32327,420
+Uttar Pradesh,Sambhal,Orange,9436,2,9329,105
+Uttar Pradesh,Sant Kabir Nagar,Red,8157,1,8058,98
+Uttar Pradesh,Shahjahanpur,Green,20352,4,19905,443
+Uttar Pradesh,Shamli,Orange,12974,0,12929,45
+Uttar Pradesh,Shrawasti,Orange,4385,2,4348,35
+Uttar Pradesh,Siddharthnagar,Green,9364,5,9259,100
+Uttar Pradesh,Sitapur,Orange,12392,1,12206,185
+Uttar Pradesh,Sonbhadra,Green,16799,0,16548,251
+Uttar Pradesh,Sultanpur,Orange,14907,6,14763,138
+Uttar Pradesh,Unnao,Orange,14996,3,14739,254
+Uttar Pradesh,Varanasi,Red,85466,21,84474,971
+Uttarakhand,Almora,Orange,12139,613,11332,194
+Uttarakhand,Bageshwar,Green,5709,41,5608,60
+Uttarakhand,Chamoli,Green,12144,255,11827,62
+Uttarakhand,Champawat,Green,7547,200,7294,53
+Uttarakhand,Dehradun,Orange,111951,747,107692,3512
+Uttarakhand,Haridwar,Green,51397,1373,49020,1004
+Uttarakhand,Nainital,Orange,39078,135,38000,943
+Uttarakhand,Pauri Garhwal,Orange,17541,711,16517,313
+Uttarakhand,Pithoragarh,Green,10162,162,9820,180
+Uttarakhand,Rudraprayag,Green,8740,167,8467,106
+Uttarakhand,Tehri Garhwal,Green,15818,895,14816,107
+Uttarakhand,Udham Singh Nagar,Orange,37808,817,36230,761
+Uttarakhand,Uttarkashi,Orange,12468,359,12035,74
+West Bengal,Alipurduar,Green,15027,243,14685,99
+West Bengal,Bankura,Green,34724,366,34097,261
+West Bengal,Birbhum,Orange,40424,130,40009,285
+West Bengal,Cooch Behar,Green,27938,536,27307,95
+West Bengal,Dakshin Dinajpur,Green,16976,103,16705,168
+West Bengal,Darjeeling,Orange,54050,998,52550,502
+West Bengal,Hooghly,Orange,82138,565,80649,924
+West Bengal,Howrah,Red,94880,522,92872,1486
+West Bengal,Jalpaiguri,Orange,40269,626,39101,542
+West Bengal,Jhargram,Green,11429,308,11094,27
+West Bengal,Kalimpong,Orange,6513,274,6195,44
+West Bengal,Kolkata,Red,311183,835,305367,4981
+West Bengal,Malda,Orange,32700,67,32448,185
+West Bengal,Murshidabad,Orange,33633,58,33253,322
+West Bengal,Nadia,Orange,69668,648,68302,718
+West Bengal,North 24 Parganas,Red,320162,1213,314358,4591
+West Bengal,Other State,,66,0,63,3
+West Bengal,Paschim Bardhaman,Orange,56402,203,55852,347
+West Bengal,Paschim Medinipur,Orange,51094,595,50006,493
+West Bengal,Purba Bardhaman,Orange,40241,342,39715,184
+West Bengal,Purba Medinipur,Red,60872,692,59802,378
+West Bengal,Purulia,Green,19205,55,19038,112
+West Bengal,South 24 Parganas,Orange,96592,658,94656,1278
+West Bengal,Uttar Dinajpur,Green,19513,126,19154,233

@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% load widget_tweaks %}
+{% load allauth account socialaccount %}
+{% block content %}
+
+<div class="container p-5">
+    {% if form.errors %}
+    <div class="alert alert-danger">
+        <strong>There are errors in your form:</strong>
+        <ul>
+            {% for field in form %}
+                {% for error in field.errors %}
+                    <li>{{ error|escape }}</li>
+                {% endfor %}
+            {% endfor %}
+        </ul>
+        <ul>
+            {% for error in form.non_field_errors %}
+                <li>{{ error|escape }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endif %}
+    <div class="row justify-content-center">
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Sign In</h3>
+                </div>
+                <div class="card-body">
+                    <form method="post" action="{% url 'account_login' %}">
+                        {% csrf_token %}
+                        
+                        <div class="mb-3">
+                            <label for="login" class="form-label">Username or Email</label>
+                            {% render_field form.login id="login" name="login" type="text" class="form-control" %}
+                            {% for error in form.login.errors %}
+                                <div class="text-danger">{{ error }}</div>
+                            {% endfor %}
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            {% render_field form.password id="password" name="password" type="password" class="form-control" %}
+                            {% for error in form.password.errors %}
+                                <div class="text-danger">{{ error }}</div>
+                            {% endfor %}
+                        </div>
+                        
+                        <div class="form-footer">
+                            <button type="submit" class="btn btn-primary">Sign In</button>
+                            <p class="mt-3">
+                                Don't have an account? <a href="{% url 'account_signup' %}">Sign Up</a>
+                            </p>
+                            <p>
+                                <a href="{% url 'account_reset_password' %}">Forgot Password?</a>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}

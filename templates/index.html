@@ -1,0 +1,168 @@
+{% extends "base.html" %}
+{% block content %}
+<style>
+    .hero-container {
+        display: flex;
+        justify-content: space-around;
+    }
+</style>
+<div class="container p-3">
+    <div class="hero-container">
+        <a href="{% url "app:getdata" %}" class="btn btn-primary">Get Data</a>
+        <a href="{% url "app:visualize" %}" class="btn btn-cyan">Visualize Data</a>
+        <a href="{% url "app:download" %}" id="download-btn" class="btn btn-green">Download Data</a>
+    </div>
+
+</div>
+
+{% if selectdata %}
+<div class="container mt-5">
+    <h1 style="font-size:2rem;">COVID-19 Data</h1>
+
+    <h1>Select State and City</h1>
+    {% comment %} {{states}}
+    {{districts}} {% endcomment %}
+    <form method="post" class="mt-4" action="{% url "app:getdata" %}">
+        {% csrf_token %}
+        <div class="form-group my-2">
+            <label for="state">Select State:</label>
+            <select name="state" id="state" class="form-control my-2">
+                {% for state in states %}
+                    <option class="text-primary" value="{{ state.0 }}">{{ state.1 }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="form-group my-2">
+            <label for="district">Select City:</label>
+            <select name="district" id="district" class="form-control my-2">
+                {% for district in districts %}
+                    <option class="text-primary" value="{{ district.0 }}">{{ district.1 }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Get COVID Data</button>
+    </form>
+</div>
+<script>
+    // JavaScript to update city options based on selected state
+    const stateSelect = document.getElementById("state");
+    const districtSelect = document.getElementById("district");
+    {% comment %} const districts = JSON.parse('{{ districts | escapejs }}'); {% endcomment %}
+
+    stateSelect.addEventListener("change", function () {
+        const selectedStateId = stateSelect.value;
+        
+        districtSelect.innerHTML = ""; // Clear existing options
+        if (selectedStateId) {
+            console.log('enetered')
+            // Send an AJAX request to fetch districts of the selected state
+            fetch(`/app/districts/${selectedStateId}`)
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data)
+                    data.forEach(function (district) {
+                        const option = document.createElement("option");
+                        option.value = district.id;
+                        option.textContent = district.name;
+                        districtSelect.appendChild(option);
+                    });
+                });
+        }
+    });
+</script>
+{% elif getdata %}
+<h1 style="font-size:2rem;">COVID-19 Data</h1>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    /* Custom CSS to style the table */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+    }
+    th, td {
+        text-align: left;
+        padding: 8px;
+    }
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    th {
+        background-color: #007BFF;
+        color: white;
+    }
+    
+</style>
+<div class="container mt-5">
+    <table class="table table-bordered table-striped table-hover">
+        <thead>
+            <tr>
+                <th>Zone</th>
+                <th>State</th>
+                <th>City</th>
+                <th>Confirmed <i class="fa fa-check-circle text-success"></i></th>
+                <th>Active <i class="fa fa-exclamation-circle text-warning"></i></th>
+                <th>Recovered <i class="fa fa-thumbs-up text-primary"></i></th>
+                <th>Deceased <i class="fa fa-times-circle text-danger"></i></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="background-color: {{ covid_data.0|lower }}">{{ covid_data.0  }}</td>
+                <td>{{state}}</td>
+                <td>{{district}}</td>
+                <td >{{ covid_data.1 }}</td>
+                <td>{{ covid_data.2 }}</td>
+                <td>{{ covid_data.3 }}</td>
+                <td>{{ covid_data.4 }}</td>
+                <td>{{ covid_data.5 }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+{% comment %} {{tableau_state_id | safe}} {% endcomment %}
+
+{% comment %} <div class='tableauPlaceholder' id='viz1699273163397' style='position: relative'><noscript><a href='#'><img alt='INDIA COVID-19 DATA (as of 8th May 2020 - IST 05:00 P.M) ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;4C&#47;4C28RW92R&#4;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;8YPGJ3TPQ' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;8Y&#47;8YPGJ3TPQ&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1699273163397');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1024px';vizElement.style.height='795px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1024px';vizElement.style.height='795px';} else { vizElement.style.width='100%';vizElement.style.height='877px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script> {% endcomment %}
+
+{% elif vis_data %}
+{{vis_data | safe}}
+{% elif visualize %}
+<h1 style="font-size:2rem;">COVID-19 Data</h1>
+<div class='tableauPlaceholder' id='viz1698941283142' style='position: relative'>
+    <noscript>
+        <a href='#'><img alt='INDIA COVID-19 DATA (as of 8th May 2020 - IST 05:00 P.M) ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;Indiacovid-19data&#47;covid19data&#47;1_rss.png' style='border: none' /></a>
+    </noscript>
+    <object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> 
+        <param name='site_root' value='' /><param name='name' value='Indiacovid-19data&#47;covid19data' />
+        <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;Indiacovid-19data&#47;covid19data&#47;1.png' /> 
+        <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' />
+        <param name='language' value='en-US' /></object></div>                
+        <script type='text/javascript'>                   
+            var divElement = document.getElementById('viz1698941283142');           
+            var vizElement = divElement.getElementsByTagName('object')[0];           
+            if ( divElement.offsetWidth > 800 ) 
+            { vizElement.style.width='1024px';vizElement.style.height='795px';} 
+            else if ( divElement.offsetWidth > 500 ) 
+                               { vizElement.style.width='1024px';vizElement.style.height='795px';}
+                                else { vizElement.style.width='100%';vizElement.style.height='877px';}   
+                                                  var scriptElement = document.createElement('script'); 
+                                                                     scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';             
+                                                                            vizElement.parentNode.insertBefore(scriptElement, vizElement);     
+                                                                                   </script>
+
+
+{% endif %}
+<script>
+    let downloadbtn = document.getElementById('download-btn');
+        
+    downloadbtn.addEventListener('click', () => {
+        // Add a delay of 3 seconds before refreshing the page
+        setTimeout(() => {
+            location.reload(); // Refresh the page
+        }, 3000); // 3000 milliseconds (3 seconds)
+    });
+</script>
+    {% endblock content %}

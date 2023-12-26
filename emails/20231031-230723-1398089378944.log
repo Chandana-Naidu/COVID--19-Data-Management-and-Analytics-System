@@ -1,0 +1,24 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: [example.com] Password Reset Email
+From: webmaster@localhost
+To: burluudaysantoshkumar3@gmail.com
+Date: Tue, 31 Oct 2023 17:37:23 -0000
+Message-ID: <169877384345.8216.18126694676910649808@UDAYSK>
+
+Hello from example.com!
+
+You are receiving this email because you or someone else has requested a
+password for your user account. However, we do not have any record of a user
+with email burluudaysantoshkumar3@gmail.com in our database.
+
+This mail can be safely ignored if you did not request a password reset.
+
+If it was you, you can sign up for an account using the link below.
+
+http://127.0.0.1:8000/accounts/signup/
+
+Thank you for using example.com!
+example.com
+-------------------------------------------------------------------------------

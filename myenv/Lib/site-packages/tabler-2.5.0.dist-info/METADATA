@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: tabler
+Version: 2.5.0
+Summary: Simple interface for tabulated data and .csv files
+Home-page: https://github.com/lukeshiner/tabler
+License: MIT
+Keywords: table,csv,simple
+Author: Luke Shiner
+Author-email: luke@lukeshiner.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Other/Nonlisted Topic
+Classifier: Topic :: Utilities
+Requires-Dist: exceptiongroup (>=1.0.4,<2.0.0)
+Requires-Dist: jinja2 (>=3.0.0)
+Requires-Dist: openpyxl (>=3.0.3)
+Requires-Dist: pyexcel-ods3 (>=0.6.0)
+Requires-Dist: requests (>=2.25.1)
+Requires-Dist: setuptools (>=68.2.2,<69.0.0)
+Requires-Dist: tomli (>=2.0.1,<3.0.0)
+Requires-Dist: typed-ast (>=1.5.4,<2.0.0)
+Requires-Dist: urllib3 (>=1.25.8)
+Project-URL: Documentation, https://tabler.readthedocs.io/en/latest/
+Project-URL: Repository, https://github.com/lukeshiner/tabler
+Description-Content-Type: text/x-rst
+
+===============================================
+Tabler - Simple interaction with tabulated data
+===============================================
+
+.. image:: https://github.com/lukeshiner/tabler/workflows/CI/badge.svg
+    :target: https://github.com/lukeshiner/tabler/actions?query=workflow%3ACI
+
+.. image:: https://coveralls.io/repos/github/lukeshiner/tabler/badge.svg?branch=master
+    :target: https://coveralls.io/github/lukeshiner/tabler?branch=master
+
+.. image:: https://readthedocs.org/projects/tabler/badge/?version=latest
+    :target: https://tabler.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
+
+.. image:: https://badge.fury.io/py/tabler.svg
+    :target: https://pypi.org/project/tabler/
+
+.. image:: https://img.shields.io/pypi/pyversions/tabler
+    :alt: PyPI - Python Version
+    :target: https://pypi.org/project/tabler/
+
+
+What is tabler?
+===============
+
+Tabler allows you to quickly and easily open, edit, create and update common
+files that hold data in a tabulated format, such as CSV or XLSX files. It's
+simple API keeps your source code clean and allows easy use of an interactive
+session.
+
+It can:
+    + Access spreadsheet files.
+    + Update text in cells.
+    + Write spreadsheet files.
+
+Compatible formats:
+    + .csv
+    + Open Spreadsheet Format .ods
+    + Microsoft Excel .xlsx
+    + HTML (Write only)
+
+It can be extended to open other file types.
+
+The full documentation is available on `Read the Docs
+<https://tabler.readthedocs.io/en/latest/>`_.
+
+Tabler lives on GitHub_.
+
+.. _GitHub: https://github.com/lukeshiner/tabler.git
+
+Contact
+_______
+
+Please send all comments and queries to Luke Shiner at luke@lukeshiner.com.
+
+Issues can be reported on GitHub_.
+
+License
+_______
+
+Distributed with MIT License.
+
+Credits
+_______
+
+Created by Luke Shiner (luke@lukeshiner.com)
+

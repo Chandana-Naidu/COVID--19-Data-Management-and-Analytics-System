@@ -1,0 +1,24 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: [covid19tracker.com] Password Reset Email
+From: webmaster@localhost
+To: burluudaysantoshkumar3@gmail.com
+Date: Wed, 01 Nov 2023 13:10:47 -0000
+Message-ID: <169884424762.30352.5961455338319674678@UDAYSK>
+
+Hello from covid19tracker.com!
+
+You are receiving this email because you or someone else has requested a
+password for your user account. However, we do not have any record of a user
+with email burluudaysantoshkumar3@gmail.com in our database.
+
+This mail can be safely ignored if you did not request a password reset.
+
+If it was you, you can sign up for an account using the link below.
+
+http://127.0.0.1:8000/accounts/signup/
+
+Thank you for using covid19tracker.com!
+covid19tracker.com
+-------------------------------------------------------------------------------

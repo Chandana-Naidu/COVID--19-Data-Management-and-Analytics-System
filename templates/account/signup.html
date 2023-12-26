@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% load widget_tweaks %}
+{% block content %}
+<div class="container p-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Sign Up</h3>
+                </div>
+                <div class="card-body">
+                    <p>
+                        Already have an account? Then please <a href="{{ login_url }}">sign in</a>
+                    </p>
+                    <form id="signup_form" method="post" action="{% url 'account_signup' %}">
+                        {% csrf_token %}
+
+                        {{ form.non_field_errors | safe }}
+                        <input type="hidden" name="remember" value="true" />
+
+                        <div class="mb-3">
+                            
+                            <label for="username" class="form-label">Username</label>
+                            {% render_field form.username id="username" name="username" placeholder="Username" type="text" class="form-control" %}
+                            {{ form.username.errors | safe }}
+                        </div>
+                        <div class="mb-3">
+                            
+                            <label for="email" class="form-label">Email</label>
+                            {% render_field form.email id="email" name="email" placeholder="Email" type="email" class="form-control" %}
+                            {{ form.email.errors | safe }}
+                        </div>
+                        <div class="mb-3">
+                            
+                            <label for="password1" class="form-label">Password</label>
+                            {% render_field form.password1 id="password1" name="password1" placeholder="Password" type="password" class="form-control" %}
+                            {{ form.password1.errors | safe }}
+                        </div>
+                        <div class="mb-3">
+                           
+                            <label for="password2" class="form-label">Confirm Password</label>
+                            {% render_field form.password2 id="password2" name="password2" placeholder="Confirm Password" type="password" class="form-control" %}
+                            {{ form.password2.errors | safe }}
+                        </div>
+
+                        {% if redirect_field_value %}
+                            <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+                        {% endif %}
+
+                        <div class="form-footer">
+                            <button type="submit" class="btn btn-primary btn-block">Sign up</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}
